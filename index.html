@@ -8,26 +8,54 @@
   <meta name="description" content="This is my website." />
   <link rel="stylesheet" href="src/styles.css">
   <style>
-    html {
+    body {
+      height: 100vh;
+      margin: 20px;
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    span {
       background-color: skyblue;
     }
 
-    body {
-      margin: 20px 5px 10px 10px;
-      background-color: palevioletred;
+    .btn {
+      padding: 53px 10px;
+      border-radius: 5px;
+    }
+
+    .tomato {
+      background-color: tomato;
+      color: #fff;
+    }
+
+    .teal {
+      background-color: teal;
     }
 
     div {
-      margin-left: 50px;
-      height: 150px;
-      width: 150px;
-      background-color: yellowgreen;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 300px;
+      height: 300px;
+      background-color: steelblue;
+      font-size: 20;
+      color: #fff;
+    }
+
+    #second {
+      background-color: wheat;
     }
   </style>
 </head>
 
 <body>
-  <div></div>
+  <div>1</div>
+  <div id="second">2</div>
+  <div>3</div>
 </body>
 
 </html>
