@@ -10,52 +10,31 @@
   <style>
     body {
       height: 100vh;
-      margin: 20px;
-      display: flex;
-      justify-content: space-around;
-      align-items: center;
-      flex-wrap: wrap;
+      margin: 50px;
     }
 
-    span {
-      background-color: skyblue;
-    }
-
-    .btn {
-      padding: 53px 10px;
-      border-radius: 5px;
-    }
-
-    .tomato {
-      background-color: tomato;
+    div {
+      width: 300px;
+      height: 300px;
       color: #fff;
+      background-color: skyblue;
+      position: relative;
     }
 
     .teal {
       background-color: teal;
-    }
-
-    div {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      width: 300px;
-      height: 300px;
-      background-color: steelblue;
-      font-size: 20;
-      color: #fff;
-    }
-
-    #second {
-      background-color: wheat;
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      right: 0px;
     }
   </style>
 </head>
 
 <body>
-  <div>1</div>
-  <div id="second">2</div>
-  <div>3</div>
+  <div>
+    <div class="teal"></div>
+  </div>
 </body>
 
 </html>
