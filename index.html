@@ -13,27 +13,26 @@
       margin: 50px;
     }
 
-    div {
-      width: 300px;
-      height: 300px;
-      color: #fff;
-      background-color: skyblue;
-      position: relative;
+    form {
+      border: 1px solid tomato;
+      display: flex;
+      flex-direction: column;
+      padding: 20px;
     }
 
-    .teal {
-      background-color: teal;
-      height: 100px;
-      width: 100px;
-      position: absolute;
-      right: 0px;
+    form:focus-within {
+      border-color: teal;
     }
   </style>
 </head>
 
 <body>
   <div>
-    <div class="teal"></div>
+    <form>
+      <input type="text">
+      <input type="text">
+      <input type="text">
+    </form>
   </div>
 </body>
 
