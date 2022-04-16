@@ -2,65 +2,27 @@
 <html lang="en">
 
 <head>
-  <link rel="shortcut icon" href="https://www.kakaocorp.com/page/favicon.ico">
-  <title>Home - my first website</title>
-  <meta charset="utf-8" />
-  <meta name="description" content="This is my website." />
-  <link rel="stylesheet" href="src/styles.css">
-  <style>
-    :root {
-      --main-color: #efac34;
-    }
-
-    body {
-      height: 100vh;
-      margin: 50px;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-
-    div {
-      background-color: var(--main-color);
-      width: 300px;
-      height: 300px;
-    }
-
-    @media screen and (max-width: 600px) {
-      div {
-        background-color: teal;
-      }
-    }
-
-    @media screen and (min-width: 600px) and (max-width: 800px) {
-      div {
-        background-color: tomato;
-      }
-    }
-
-    @media screen and (min-width: 800px) and (max-width: 1000px) {
-      div {
-        background-color: greenyellow;
-      }
-    }
-
-    .flip-error {
-      font-size: 36px;
-    }
-
-    @media screen and (orientation: landscape) {
-      .flip-error {
-        display: none;
-      }
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to Kokoa Talk</title>
 </head>
 
 <body>
-  <div>
+  <div class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <!--To Do: WiFi Icon-->
+    </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>11%</span>
+      <!--Battery Icon-->
+      <!--Lightening Icon-->
+    </div>
   </div>
-  <span class="flip-error">please flip your phone :(</span>
 </body>
 
 </html>
