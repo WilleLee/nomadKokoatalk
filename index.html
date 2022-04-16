@@ -8,32 +8,59 @@
   <meta name="description" content="This is my website." />
   <link rel="stylesheet" href="src/styles.css">
   <style>
+    :root {
+      --main-color: #efac34;
+    }
+
     body {
       height: 100vh;
       margin: 50px;
-    }
-
-    form {
-      border: 1px solid tomato;
       display: flex;
       flex-direction: column;
-      padding: 20px;
+      justify-content: center;
+      align-items: center;
     }
 
-    form:focus-within {
-      border-color: teal;
+    div {
+      background-color: var(--main-color);
+      width: 300px;
+      height: 300px;
+    }
+
+    @media screen and (max-width: 600px) {
+      div {
+        background-color: teal;
+      }
+    }
+
+    @media screen and (min-width: 600px) and (max-width: 800px) {
+      div {
+        background-color: tomato;
+      }
+    }
+
+    @media screen and (min-width: 800px) and (max-width: 1000px) {
+      div {
+        background-color: greenyellow;
+      }
+    }
+
+    .flip-error {
+      font-size: 36px;
+    }
+
+    @media screen and (orientation: landscape) {
+      .flip-error {
+        display: none;
+      }
     }
   </style>
 </head>
 
 <body>
   <div>
-    <form>
-      <input type="text">
-      <input type="text">
-      <input type="text">
-    </form>
   </div>
+  <span class="flip-error">please flip your phone :(</span>
 </body>
 
 </html>
