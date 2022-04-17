@@ -1,0 +1,41 @@
+.nav-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  box-sizing: border-box;
+  border-top: 2px solid rgba(121, 121, 121, 0.1);
+}
+.nav-bar__ul {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-bar__anchor {
+  color: #2e363e;
+  position: relative;
+  text-decoration: none;
+}
+.nav-bar__comment-notification {
+  display: flex;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: tomato;
+  color: #fff;
+  justify-content: center;
+  align-items: center;
+  font-weight: 600;
+  position: absolute;
+  right: -8px;
+  top: -5px;
+}
+.nav-bar__more-notification {
+  width: 4px;
+  height: 4px;
+  background-color: tomato;
+  border-radius: 50%;
+  position: absolute;
+  top: -5px;
+  right: -3px;
+}

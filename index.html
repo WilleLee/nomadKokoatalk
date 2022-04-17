@@ -5,24 +5,43 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Welcome to Kokoa Talk</title>
+  <title>Welcome to KokoaTalk</title>
+  <link rel="stylesheet" href="src/styles.css">
 </head>
 
 <body>
-  <div class="status-bar">
+  <section class="status-bar">
     <div class="status-bar__column">
       <span>No Service</span>
-      <!--To Do: WiFi Icon-->
+      <i class="fa-solid fa-wifi"></i>
     </div>
     <div class="status-bar__column">
       <span>18:43</span>
     </div>
     <div class="status-bar__column">
       <span>11%</span>
-      <!--Battery Icon-->
-      <!--Lightening Icon-->
+      <i class="fa-solid fa-battery-full fa-lg"></i>
+      <i class="fa-solid fa-bolt"></i>
     </div>
-  </div>
+  </section>
+
+  <header class="welcome-header">
+    <h1 class="welcome-header__title">Welcome to KokoaTalk</h1>
+    <p class="welcome-header__text">If you have a Kokoa Account,<br />log in with your email or phone number.</p>
+  </header>
+
+  <form action="friends.html" method="get" class="login-form">
+    <input name="username" class="login-form__input" type="text" placeholder="Email or phone number" required />
+    <input name="password" class="login-form__input" type="password" placeholder="Password" required />
+    <input class="login-form__btn" type="submit" value="Log in" />
+    <a class="login-form__anchor" href="#">
+      Find Kokoa Account or Password
+    </a>
+  </form>
+
+
+  <script src="https://kit.fontawesome.com/2964f6c2f8.js" crossorigin="anonymous"></script>
+
 </body>
 
 </html>
