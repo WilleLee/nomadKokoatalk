@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px;
+  padding: 25px var(--horizontal-space);
 }
 .friends-header__title {
   font-size: 28px;
