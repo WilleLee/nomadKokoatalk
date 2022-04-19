@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 25px var(--horizontal-space);
+  margin-bottom: 10px;
 }
 .friends-header__title {
   font-size: 28px;

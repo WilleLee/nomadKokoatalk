@@ -17,15 +17,6 @@
   text-decoration: none;
 }
 .nav-bar__comment-notification {
-  display: flex;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  background-color: tomato;
-  color: #fff;
-  justify-content: center;
-  align-items: center;
-  font-weight: 600;
   position: absolute;
   right: -8px;
   top: -5px;
