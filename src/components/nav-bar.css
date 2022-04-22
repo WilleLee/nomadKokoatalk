@@ -21,12 +21,3 @@
   right: -8px;
   top: -5px;
 }
-.nav-bar__more-notification {
-  width: 4px;
-  height: 4px;
-  background-color: tomato;
-  border-radius: 50%;
-  position: absolute;
-  top: -5px;
-  right: -3px;
-}

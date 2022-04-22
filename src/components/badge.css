@@ -10,3 +10,16 @@
   font-weight: 400;
   font-size: 12px;
 }
+.more-notification {
+  position: relative;
+}
+.more-notification::after {
+  display: block;
+  content: "";
+  width: 3px;
+  height: 3px;
+  background-color: red;
+  position: absolute;
+  top: -5px;
+  right: -3px;
+}
