@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat w/ Wille - KokoaTalk</title>
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+
+<body id="chat-screen">
+  <section class="status-bar">
+    <div class="status-bar__column">
+      <span>No Service</span>
+      <i class="fa-solid fa-wifi"></i>
+    </div>
+    <div class="status-bar__column">
+      <span>18:43</span>
+    </div>
+    <div class="status-bar__column">
+      <span>11%</span>
+      <i class="fa-solid fa-battery-full fa-lg"></i>
+      <i class="fa-solid fa-bolt"></i>
+    </div>
+  </section>
+
+  <header class="alt-header">
+    <div class="alt-header__column">
+      <a href="chats.html">
+        <i class="fa-solid fa-angle-left fa-2x"></i>
+      </a>
+    </div>
+    <div class="alt-header__column">
+      <h1 class="alt-header__title">
+        Wille
+      </h1>
+    </div>
+    <div class="alt-header__column">
+      <span>
+        <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+      </span>
+      <span>
+        <i class="fa-solid fa-bars fa-xl"></i>
+      </span>
+    </div>
+  </header>
+
+
+
+  <main class="main-screen main-chat">
+
+    <div class="chat__timestamp">
+      Monday, April 25, 2022
+    </div>
+
+    <div class="msg-row">
+      <img src="src/avatar.jpeg" alt="profile picture">
+      <div class="msg-row__container">
+        <span class="msg__author">Wille</span>
+        <div class="msg__content">
+          <span class="msg__bubble">Hi!</span>
+          <span class="msg__time">21:27</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="msg-row msg-row--own">
+      <div class="msg-row__container">
+        <div class="msg__content">
+          <span class="msg__bubble">Hi, nice to meet you!</span>
+          <span class="msg__time">21:27</span>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <form class="reply">
+    <div class="reply__column">
+      <i class="fa-solid fa-plus fa-lg"></i>
+    </div>
+    <div class="reply__column">
+      <input type="text" placeholder="Write a message..." />
+      <i class="fa-regular fa-face-grin-beam-sweat fa-lg"></i>
+      <button>
+        <i class="fa-solid fa-arrow-up"></i>
+      </button>
+    </div>
+  </form>
+
+
+
+
+  <script src="https://kit.fontawesome.com/2964f6c2f8.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

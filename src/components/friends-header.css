@@ -12,3 +12,7 @@
 .friends-header__icons span {
   margin-left: 25px;
 }
+.friends-header__anchor {
+  color: #2e363e;
+  text-decoration: none;
+}

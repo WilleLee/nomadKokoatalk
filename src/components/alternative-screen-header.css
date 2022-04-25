@@ -1,0 +1,29 @@
+.alt-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--horizontal-space);
+  margin-bottom: 15px;
+  width: 100%;
+  color: var(--black);
+}
+.alt-header__column {
+  width: 33%;
+  display: flex;
+}
+.alt-header__column a {
+  color: var(--black);
+}
+.alt-header__column:nth-child(2) {
+  justify-content: center;
+}
+.alt-header__column:last-child {
+  justify-content: flex-end;
+}
+.alt-header__column span:last-child {
+  margin-left: 10px;
+}
+.alt-header__title {
+  font-size: 26px;
+  font-weight: 600;
+}
