@@ -16,3 +16,15 @@
   color: #2e363e;
   text-decoration: none;
 }
+
+@keyframes rotateIcon {
+  from {
+    transform: 0;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+.friends-header__icons .fa-gear:hover {
+  animation: rotateIcon 2s linear infinite;
+}
